@@ -4,5 +4,5 @@ local args = {
 }
 
 game:GetService("ReplicatedStorage").Remotes.Train.AddSpeed:FireServer(unpack(args))
-wait 0.1
+wait(0.1)
 end
